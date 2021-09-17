@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVRL || Chirag</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer="defer"></script>
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1 class="brand">Chirag's Weather App</h1>
+        </header>
+        
+        <div class="app-container">
+
+            <section class="aside-section">
+                <div class="aside-wrapper">
+                    <div class="getweather-wrapper">
+                        <button class="btn-getweather">Get Weather</button>
+                    </div>
+                    <div class="aside-head">
+                        <p class="aside-head-text">City</p>
+                    </div>
+                    <table class="cities-list">
+                            <tr>
+                                <th class="city city1">London</th>
+                            </tr>
+                            <tr>
+                                <th class="city city2">New York</th>
+                            </tr>
+                            <tr>
+                                <th class="city city3">Las Angeles</th>
+                            </tr>
+                            <tr>
+                                <th class="city city4">Las Vegas</th>
+                            </tr>
+                    </table>
+                </div>
+            </section>
+
+            <section class="main-section">
+                <form class="search-wrapper">
+                    <input type="text" class="input-search" placeholder="Search City">
+                    <button type="submit" class="btn-search">Search</button>
+                </form>
+                
+                <div class="display-wrapper">
+                    <table class="table">
+                        <tr>
+                            <th class="table-head">City</th>
+                            <th class="table-head">Description</th>
+                            <th class="table-head">Temparature (℃)</th>
+                            <th class="table-head">Pressure (hPa)</th>
+                            <th class="table-head">Data age (hrs)</th>
+                            <th class="table-head"></th>
+                        </tr>
+                    </table>
+                    <div class="noData-container">
+                        <p class="noData-text">No Data</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

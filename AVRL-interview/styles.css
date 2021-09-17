@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.brand {
+    background-color: #4472C4;
+    color: white;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.app-container {
+    display: flex;
+}
+
+/* Aside-section */
+
+.aside-section {
+    height: calc(100vh - 83px);
+    border-right: 2px solid black;
+}
+.aside-wrapper {
+    margin: 0 40px;
+}
+.getweather-wrapper {
+    margin: 20px 0;
+    width: 140px;
+}
+.btn-getweather {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.1em;
+    background-color: #4472C4;
+    color: white;
+    border-radius: 0.6rem;
+}
+.aside-head {
+    background-color: #4472C4;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside-head-text {
+    padding: 5px 0;
+    font-size: 1.1em;
+    color: white;
+}
+.cities-list{
+    width: 100%;
+    border-collapse: collapse;
+}
+.city {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1em;
+    padding: 8px 0;
+}
+
+/* Main-section */
+
+.main-section {
+    width: 100%;
+}
+
+/* Search-wrapper */
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 20px 30px 20px 0;
+}
+.input-search {
+    height: 30px;
+    width: 210px;
+    font-size: 1em;
+    padding: 0 7px;
+    border-radius: 0.6rem;
+    border: 2px solid black;
+    outline: none;
+    transform: translateX(12px);
+}
+.btn-search {
+    height: 100%;
+    padding: 5px 20px;
+    font-size: 1.1em;
+    background-color: #4472C4;
+    color: white;
+    border-radius: 0.6rem;
+    z-index: 1;
+}
+
+/* Display-wrapper */
+
+.display-wrapper {
+    margin: 0 20px;
+}
+
+/* Table */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-head {
+    background-color: #4472C4;
+    border-right: 1px solid white;
+    height: 40px;
+    padding: 5px 0;
+    font-size: 1.1em;
+    width: 18%;
+    color: white;
+}
+.noData-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40vh;
+    border: 2px solid black;
+}
+.noData-text {
+    font-size: 1.4em;
+}
+.new-table-row {
+    text-align: center;
+}
+.table-data {
+    border: 1px solid black;
+    padding: 5px;
+}
+.btnDel {
+    padding: 3px 5px;
+}
+.btnDel:hover {
+    background-color: red;
+    transition: .3s ease-out;
+}
